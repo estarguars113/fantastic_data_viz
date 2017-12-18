@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <!-- Metadata -->
+    <title> Instacart | Data Exploration </title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Instacart | Data Exploration " />
+
+    <!-- Twitter Card data -->
+   <meta name="twitter:card" value="Instacart | Data Exploration ">
+
+   <!-- Open Graph data -->
+   <meta property="og:title" content="Instacart | Data Exploration " />
+   <meta property="og:url" content="http://netmidas.com/vehicle_type/index.html" />
+   <meta property="og:type" content="article" />
+   <meta property="og:image" content="http://crashmap.netmidas.com/wp-content/uploads/2017/09/ccc.png" />
+   <meta property="og:description" content="Instacart | Data Exploration " />
+
+    <!-- CSS files -->
+    <link rel="stylesheet" type="text/css" href="css/semantic.min.css">
+    <link href="https://cdn.jsdelivr.net/semantic-ui/2.2.10/components/icon.min.css" rel="stylesheet">
+
+
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div id="viz-wrapper" class="ui stacked segments">
+      <div id="viz-container" class="grid grid-pad">
+
+          <!-- Visualization Header -->
+          <div class="ui col-1-1">
+
+              <div class="ui top attached">
+                 <div id="viz-title" class="content">
+                     <h1 class="ui header">Instacart Viz
+                       <div class="sub header">2017</div>
+                     </h1>
+                 </div>
+              </div>
+
+          </div>
+
+            <!-- Map implementation -->
+            <div id="main" class="ui basic segments" style="margin-bottom: 0px;border-bottom-width: 0px;">
+
+              <div class="ui active inverted dimmer">
+                <div class="ui text loader">Loading</div>
+              </div>
+
+
+              <!-- Viz Container -->
+              <div id="cart"></div>
+
+            </div>
+
+          <!-- Visualization Footer -->
+          <div id="viz-footer" class="col-1-1">
+
+            <!-- Social Sharing tools -->
+            <h4 id="viz-share-container" style="margin-top: 15px;" class="ui horizontal divider header">
+              <div id="viz-share-button" class="ui basic button"><i class="share icon"></i> Share</div>
+            </h4>
+            <div id="viz-share-popup" class="ui flowing popup top left transition hidden"><div id="viz-social"></div></div>
+          </div>
+
+      </div>
+    </div>
+
+  </body>
+
+  <footer>
+    <!-- Javascript files -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <!-- other -->
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+    <script src="js/semantic.min.js"></script>
+    <script src="js/color.js"></script>
+    <script src="js/functions.js"></script>
+  </footer>
+</html>
