@@ -1,0 +1,168 @@
+#viz-container{
+  min-width: 1px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-bottom: 15px;
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+}
+
+#viz-share-container{
+  margin-top: -25px;
+  margin-bottom: 25px;
+}
+
+#viz-share-button{
+  margin-left: 20px;
+  margin-bottom: -15px;
+  margin-right: 20px;
+}
+
+#viz-social ul{
+  list-style: none;
+  padding-left: 10px;
+  margin-top: 5px;
+}
+
+#viz-social > ul > li{
+  display: inline-flex;
+  margin-right: 25px;
+  width: 18px;
+  height: 18px;
+}
+
+.viz-share-icon{
+  width: 100%;
+  height: auto;
+}
+
+#viz-title{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#viz-text > p{
+  font-size: 1.14285714rem;
+  color: rgba(0,0,0,.6);
+}
+
+#viz-location{
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+#viz-info{
+  margin-top: 30px;
+  text-align: left;
+  font-size: 1.14285714rem;
+  color: rgba(0,0,0,.6);
+}
+
+#viz-credits{
+  margin-top: 15px;
+  text-align: center;
+}
+
+
+#viz-title > h1{
+  margin-bottom: -15px;
+}
+
+#viz-title > h3{
+  margin-bottom: -10px;
+}
+
+.hidden{
+  display: none;
+}
+
+.visible{
+  display: block;
+}
+
+/*-------------- data viz css -------*/
+
+#map {
+  height: 600px;
+  margin-bottom: 15px;
+}
+
+.info {
+    margin-top: 10px !important;
+}
+
+.value_meta{
+  font-size: 16px;
+  color: gray;
+}
+
+
+/*---------------- CHART ----------*/
+
+
+div.y2013 {
+	color: #FF0099;
+	display: inline;
+}
+div.y1990 {
+	color: #0099FF;
+	display: inline;
+}
+
+svg {
+	display: block;
+	margin: 0 auto;
+}
+
+.marker{
+  width: 16px !important;
+  height: 16px !important;
+  border-radius: 50%;
+}
+
+circle {
+	stroke-width: 1;
+}
+
+circle.y2013 {
+	fill: #0099FF;
+}
+
+circle.y1990 {
+	fill: lightgray;
+}
+
+circle:hover {
+	opacity: .5;
+}
+
+line.grid {
+	stroke: lightgray;
+}
+
+line.between {
+	stroke: black;
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: black;
+	shape-rendering: crispEdges;
+}
+
+.axis text {
+	font-family: sans-serif;
+	font-size: 11px;
+}
+
+.xlabel {
+	font-famile: sans-serif;
+	font-size: 11px;
+	color: gray;
+}
+
+.domain{
+  stroke: lightgray !important;
+}
